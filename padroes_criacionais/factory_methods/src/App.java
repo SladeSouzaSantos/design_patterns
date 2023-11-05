@@ -7,18 +7,18 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("\n\nBefore");
         System.out.println("-------------------");
-        new ClientBefore().exemplo();
+        ClientBefore.exemplo();
 
         System.out.println("\n\nFactory Method");
         System.out.println("-------------------");
-        new ClientFactoryMethod().exemplo();
+        ClientFactoryMethod.exemplo();
 
         System.out.println("\n\nSimple Factory");
         System.out.println("-------------------");
-        new ClientSimpleFactory().exemplo();
+        ClientSimpleFactory.exemplo();
 
         System.out.println("\n\nHalf Simple Factory");
         System.out.println("-------------------");
-        new ClientHalfSimpleFactory().exemplo();
+        ClientHalfSimpleFactory.exemplo();
     }
 }

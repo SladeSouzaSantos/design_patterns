@@ -33,7 +33,7 @@ public class ClientBefore {
 		return device;
 	}
 
-	public void exemplo() {
+	public static void exemplo() {
 		ClientBefore client = new ClientBefore();
 		
 		System.out.println("### Ordering an iPhone X");

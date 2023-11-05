@@ -5,7 +5,7 @@ import apple.after_simple_factory.model.IPhone;
 
 public class ClientSimpleFactory {
 	
-	public void exemplo() {
+	public static void exemplo() {
 		System.out.println("### Ordering an iPhone X");
 		IPhone iphone = IPhoneSimpleFactory.orderIPhone("X", "standard");
 		System.out.println(iphone);

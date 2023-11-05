@@ -7,7 +7,7 @@ import apple.after_half_simple_factory.model.IPhone;
 
 public class ClientHalfSimpleFactory {
 	
-	public void exemplo() {
+	public static void exemplo() {
 		IPhoneFactory genXFactory = new IPhoneXFactory();
 		IPhoneFactory gen11Factory = new IPhone11Factory();
 		

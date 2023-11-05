@@ -7,7 +7,7 @@ import apple.after_factory_method.model.IPhone;
 
 public class ClientFactoryMethod {
 	
-	public void exemplo() {
+	public static void exemplo() {
 		IPhoneFactory iphoneXFactory = new IPhoneXFactory();
 		IPhoneFactory iphone11ProFactory = new IPhone11ProFactory();
 		
