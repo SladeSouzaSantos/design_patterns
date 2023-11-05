@@ -7,7 +7,7 @@ import tecnologia_service.services.UserService;
 
 public class ClientAbstractFactoryAlternativoTecnologia {
 
-	public static void main(String[] args) {
+	public static void exemplo() {
 		ServicesAbstractFactory factory = new EJBAbstractFactory();
 //		ServicesAbstractFactory factory = new RestAbstractFactory();
 		
