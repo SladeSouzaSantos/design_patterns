@@ -1,0 +1,1 @@
+Este padrão é intermediário ao Factory Method do GOT e o Simple Factory, nele se separa os Factory com base no modelo Base dos iPhones. Dessa forma, se mantém o padrão do Factory Method, porém se reduz a quantidade de Factory, tendo em vista que se há apenas 2 modelos de iPhones, porém cada modelo tem 2 versões, cuja os Factorys fazem essa conexão.
