@@ -5,7 +5,7 @@ import tecnologia_service.factory.ServicesAbstractFactory;
 import tecnologia_service.services.CarService;
 import tecnologia_service.services.UserService;
 
-public class ClientAbstractFactoryAlternativo {
+public class ClientAbstractFactoryAlternativoTecnologia {
 
 	public static void main(String[] args) {
 		ServicesAbstractFactory factory = new EJBAbstractFactory();
