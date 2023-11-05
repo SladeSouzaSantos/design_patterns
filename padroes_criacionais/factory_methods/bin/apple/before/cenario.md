@@ -1,1 +1,1 @@
-Neste cenário a classe Client precisa conhecer tanto o Objeto abstrato do iPhone, quanto os Objetos concretos que extendem o iPhone.
+Neste cenário a classe Client precisa conhecer tanto a interface iPhone, quanto os Objetos concretos que extendem o iPhone.
