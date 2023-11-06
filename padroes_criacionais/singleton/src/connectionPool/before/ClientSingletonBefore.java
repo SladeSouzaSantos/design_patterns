@@ -25,7 +25,7 @@ public class ClientSingletonBefore {
 			conn.query("SELECT * FROM A3");
 	}
 
-	public static void main(String[] args) {
+	public static void exemplo() {
 		doQuery1();
 		doQuery2();
 		doQuery3();
