@@ -1,7 +1,8 @@
 import connectionPool.after.ClientSingletonFechandoConexao;
 import connectionPool.after.ClientSingletonLimitConexaoError;
 import connectionPool.before.ClientSingletonBefore;
-import connectionPool.monostate.ClientMonostate;
+import connectionPool.monostate.ClientMonostateFechamentoConexao;
+import connectionPool.monostate.ClientMonostateLimitConexaoError;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -17,8 +18,12 @@ public class App {
         System.out.println("--------------");
         ClientSingletonLimitConexaoError.exemplo();
 
-        System.out.println("\n\nMONOSTATE (Versão modificada do Singleton.)");
+        System.out.println("\n\nMONOSTATE (Versão modificada do Singleton. Sem erro de limite de conexão, por fecha-las após o uso.)");
         System.out.println("--------------");
-        ClientMonostate.exemplo();
+        ClientMonostateFechamentoConexao.exemplo();
+
+        System.out.println("\n\nMONOSTATE (Versão modificada do Singleton. Com erro de limite de conexão, por não fecha-las após o uso.)");
+        System.out.println("--------------");
+        ClientMonostateLimitConexaoError.exemplo();
     }
 }

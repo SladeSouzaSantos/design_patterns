@@ -3,12 +3,14 @@ package connectionPool.monostate;
 import connectionPool.monostate.conn.Connection;
 import connectionPool.monostate.conn.ConnectionPool;
 
-public class ClientMonostate {
+public class ClientMonostateFechamentoConexao {
 	public static void doQuery1() {
 		ConnectionPool pool = new ConnectionPool();
 		Connection conn = pool.getConnection();
 		if(conn != null)
 			conn.query("SELECT * FROM A1");
+
+		pool.leaveConnection(conn);
 	}
 	
 	public static void doQuery2() {
@@ -16,6 +18,8 @@ public class ClientMonostate {
 		Connection conn = pool.getConnection();
 		if(conn != null)
 			conn.query("SELECT * FROM A2");
+		
+		pool.leaveConnection(conn);
 	}
 	
 	public static void doQuery3() {
@@ -23,6 +27,8 @@ public class ClientMonostate {
 		Connection conn = pool.getConnection();
 		if(conn != null)
 			conn.query("SELECT * FROM A3");
+
+		pool.leaveConnection(conn);
 	}
 
 	public static void exemplo() throws InterruptedException {
