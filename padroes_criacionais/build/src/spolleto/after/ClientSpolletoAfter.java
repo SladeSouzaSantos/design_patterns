@@ -8,9 +8,9 @@ import spolleto.after.model.Size;
 import spolleto.after.model.builder.PastaBuilder;
 import spolleto.after.model.builder.SaladBuilder;
 
-public class Client {
+public class ClientSpolletoAfter {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		PastaBuilder pastaBuilder = new PastaBuilder();
 		pastaBuilder.setSize(Size.LARGE);
 		Pasta p1 = pastaBuilder.getResult();

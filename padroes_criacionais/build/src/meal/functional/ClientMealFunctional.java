@@ -2,9 +2,9 @@ package meal.functional;
 
 import meal.functional.model.FastFoodMeal;
 
-public class Client {
+public class ClientMealFunctional {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		FastFoodMeal burguerCombo = new FastFoodMeal.Builder("Fries")
 				.andMain("CheeseBurger")
 				.forDrink("Code")

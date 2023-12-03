@@ -3,9 +3,9 @@ package spolleto.functional;
 import spolleto.functional.model.Pasta;
 import spolleto.functional.model.Size;
 
-public class Client {
+public class ClientSpolletoFunctional {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		Pasta p1 = new Pasta.Builder(Size.LARGE).now();
 		System.out.println(p1);
 		

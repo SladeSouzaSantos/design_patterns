@@ -2,9 +2,9 @@ package meal.before;
 
 import meal.before.model.FastFoodMeal;
 
-public class Client {
+public class ClientMealBefore {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		FastFoodMeal burguerCombo = new FastFoodMeal("Coke", "CheeseBurguer", "Fries");
 		System.out.println(burguerCombo);
 		

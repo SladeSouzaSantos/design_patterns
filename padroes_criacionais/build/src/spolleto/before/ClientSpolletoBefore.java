@@ -5,9 +5,9 @@ import java.util.Arrays;
 import spolleto.before.model.Pasta;
 import spolleto.before.model.Size;
 
-public class Client {
+public class ClientSpolletoBefore {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		Pasta p1 = new Pasta(Size.LARGE);
 		System.out.println(p1);
 		

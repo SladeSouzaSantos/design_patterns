@@ -3,9 +3,9 @@ package meal.fluent;
 import meal.fluent.model.FastFoodMeal;
 import meal.fluent.model.builder.FastFoodMealBuilder;
 
-public class Client {
+public class ClientMealFluent {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		FastFoodMeal burguerCombo = new FastFoodMealBuilder("Fries")
 				.andMain("CheeseBurger")
 				.forDrink("Code")

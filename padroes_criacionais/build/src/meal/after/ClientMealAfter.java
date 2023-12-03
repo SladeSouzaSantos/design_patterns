@@ -7,7 +7,7 @@ import meal.after.builder.Menu1Builder;
 import meal.after.builder.Menu2Builder;
 import meal.after.director.MealDirector;
 
-public class Client {
+public class ClientMealAfter {
 	
 	public static void order(String name, FastFoodMealBuilder builder) {
 		System.out.println("Ordering a " + name);
@@ -18,7 +18,7 @@ public class Client {
 		System.out.println("------------------");
 	}
 
-	public static void main(String[] args) {
+	public static void executar() {
 		order("Burguer", new Menu1Builder());
 		order("Veggie Burguer", new Menu2Builder());
 		order("Just Fries", new JustFriesBuilder());

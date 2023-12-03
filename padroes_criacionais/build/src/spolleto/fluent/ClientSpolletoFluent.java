@@ -4,9 +4,9 @@ import spolleto.fluent.model.Pasta;
 import spolleto.fluent.model.Size;
 import spolleto.fluent.model.builder.PastaBuilder;
 
-public class Client {
+public class ClientSpolletoFluent {
 
-	public static void main(String[] args) {
+	public static void executar() {
 		Pasta p1 = new PastaBuilder(Size.LARGE).now();
 		System.out.println(p1);
 		
